@@ -19,7 +19,7 @@ td {
 
   border: 1px solid rgb(107, 107, 107);
   color: #fff;
-  font-size: 5rem;
+  font-size: 4rem;
   text-align: center;
   cursor: pointer;
 }
@@ -29,9 +29,18 @@ td:hover {
 }
 
 #result-area {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+
   height: 30vh;
 
+  box-sizing: border-box;
+  padding: 16px 64px;
+
   background-color: rgb(74, 74, 74);
+  color: #fff;
+  font-size: 5rem;
 }
 
 .highlight01 {
