@@ -1,3 +1,8 @@
+* {
+  overflow: hidden;
+  margin: 0;
+}
+
 body {
   background-color: rgb(52, 52, 52);
 }
@@ -10,11 +15,25 @@ table {
 td {
   width: 25%;
 
+  border: 1px solid rgb(107, 107, 107);
   color: #fff;
   font-size: 5rem;
   text-align: center;
+  cursor: pointer;
 }
 
 td:hover {
   background-color: rgb(80, 80, 80);
+}
+
+#result-area {
+  height: 30vh;
+}
+
+.highlight01 {
+  background-color: rgb(84, 65, 151);
+}
+
+.highlight01:hover {
+  background-color: rgb(112, 89, 199);
 }
